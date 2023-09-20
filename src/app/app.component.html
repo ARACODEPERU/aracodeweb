@@ -1,41 +1,40 @@
 
-        <!--
-        <div class="offwrap"></div>
-        Preloader area start here
-        <div id="loader" class="loader">
-            <div class="loader-container"></div>
-        </div>-->
-        <!--Preloader area End here--> 
-        
-        <div class="main-content">
-            <router-outlet></router-outlet>
-        </div> 
+<!--
+<div class="offwrap"></div>
+<div id="loader" class="loader">
+    <div class="loader-container"></div>
+</div>-->
+<!--Preloader area End here--> 
 
-        <app-footer></app-footer>
+<div class="main-content">
+    <router-outlet></router-outlet>
+</div> 
 
-        
-        <!-- start scrollUp  -->
-        <div id="scrollUp" class="orange-color">
-            <i class="fa fa-angle-up"></i>
-        </div>
-        <!-- End scrollUp  -->
+<!-- Pie Pagina Seccion - Inicio -->
+<app-pie-pagina-seccion></app-pie-pagina-seccion>
+<!-- Pie Pagina Seccion - Fin -->
 
-        <!-- Search Modal Start -->
-        <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-            <button type="button" class="close" data-bs-dismiss="modal">
-                <span class="flaticon-cross"></span>
-            </button>
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="search-block clearfix">
-                        <form>
-                            <div class="form-group">
-                                <input class="form-control" placeholder="Busca aqui..." type="text">
-                            </div>
-                        </form>
+<!-- start scrollUp  -->
+<div id="scrollUp" class="orange-color">
+    <i class="fa fa-angle-up"></i>
+</div>
+<!-- End scrollUp  -->
+<!-- Search Modal Start -->
+<div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-bs-dismiss="modal">
+        <span class="flaticon-cross"></span>
+    </button>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="search-block clearfix">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Busca aqui..." type="text">
                     </div>
-                </div>
+                </form>
             </div>
         </div>
-        <!-- Search Modal End -->
+    </div>
+</div>
+<!-- Search Modal End -->
 
