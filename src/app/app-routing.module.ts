@@ -5,6 +5,7 @@ import { HomeComponent } from './Pages/home/home.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { InicioComponent } from './Paginas/inicio/inicio.component';
 import { NosotrosComponent } from './Paginas/nosotros/nosotros.component';
+import { PaginasWebComponent } from './Paginas/paginas-web/paginas-web.component';
 import { ProductosComponent } from './Paginas/productos/productos.component';
 import { ProyectosComponent } from './Paginas/proyectos/proyectos.component';
 import { BlogEsComponent } from './Paginas/blog-es/blog-es.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: '', component: InicioComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'nosotros', component: NosotrosComponent },
+  { path: 'paginas-web', component: PaginasWebComponent },
   { path: 'productos', component: ProductosComponent },
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'blog-es', component: BlogEsComponent },
